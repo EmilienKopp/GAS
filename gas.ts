@@ -3,4 +3,4 @@
 import { menu } from "./src/core/ui.ts";
 import { plugins } from "./src/plugins/index.ts";
 
-await menu("GAS — Git Assistance System", plugins, { exitLabel: "Exit" });
+await menu("GAS - GAS Assists and Shortcuts", plugins, { exitLabel: "Exit" });

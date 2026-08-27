@@ -1,6 +1,6 @@
 # GAS
 
-Git Assistance System. An interactive terminal menu for the git and GitHub chores I do twenty times a day, so I stop retyping the same commands and flags.
+GAS Assists and Shortcuts. An interactive terminal menu for the git and GitHub chores I do twenty times a day, so I stop retyping the same commands and flags.
 
 Built with Deno and [Cliffy](https://cliffy.io), compiled to a single binary.
 
@@ -60,7 +60,7 @@ Batch-delete local branches matching a pattern (substring or regex). Deliberatel
 
 Everything is a plugin. The main menu is just a list of `Plugin` objects, and a plugin is just a `MenuItem`: a label and a `run()`.
 
-```
+```text
 gas.ts                  entry point (6 lines)
 src/
   core/
